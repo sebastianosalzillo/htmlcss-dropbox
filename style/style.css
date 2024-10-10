@@ -338,6 +338,30 @@ width: 25%;
 margin: 0 auto;
 }
 
+
+
+/* CONTACT_SECTION */
+
+.contact-section {
+    display: flex;
+    margin-top: 10em;
+}
+.contact-left{
+  
+    flex: 2;
+
+}
+.contact-left img{
+    width: 100%;
+
+}
+.contact-rigt {
+    margin: auto auto;
+    padding: 0 2em ;
+   flex: 1;
+   
+}
+
 /* FOOTER */
 
 footer {
