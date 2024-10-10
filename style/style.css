@@ -364,8 +364,8 @@ margin: 0 auto;
     width: calc(94%/3);
     /* debug */
 
-    border: 1px solid red;
-    min-height: 200px;
+    /* border: 1px solid red;
+    min-height: 200px; */
 }
 
 .business {
