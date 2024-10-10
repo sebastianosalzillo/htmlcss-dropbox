@@ -21,6 +21,10 @@
     margin-top: 20px;
 }
 
+header {
+    background-color: #8ac3ef;
+}
+
 /* COMMON */
 
 .container {
@@ -37,12 +41,12 @@
 }
 
 .hero-container {
-   
-width: 100%;
 
-background-color: #8ac3ef;
-position: relative;
-    
+    width: 100%;
+
+    background-color: #8ac3ef;
+    position: relative;
+
 
     /* Debug */
 
@@ -70,8 +74,8 @@ position: relative;
 }
 
 .nav-list li {
-   display: inline;
-   
+    display: inline;
+
 }
 
 
@@ -96,7 +100,7 @@ position: relative;
     width: 100%;
     z-index: 9999;
     align-items: center;
-    
+
 
     /* debug */
     border: 1px solid blue;
@@ -105,12 +109,12 @@ position: relative;
 
 
 .header-menu {
-    width: 45%;
+
     height: 100%;
-   
-    
-    
-    
+
+
+
+
 
 
     /* debug */
@@ -125,7 +129,7 @@ position: relative;
     width: 80%;
     max-width: 1100px;
     padding-top: 30px;
-   
+
 }
 
 
@@ -137,7 +141,7 @@ position: relative;
     border: 1px solid black;
     min-height: 100px;
     width: 100%;
-   
+
 
 
 }
@@ -149,26 +153,27 @@ position: relative;
 
 
 .hero-content {
-    
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
-    
+
 }
+
 .hero-image {
     width: 55%;
     position: relative;
     top: 5em;
-   
+
 }
 
 .hero-img {
     width: 100%;
     height: 80%;
-    
-    
-    
+
+
+
 }
 
 
@@ -182,31 +187,36 @@ position: relative;
 
 .billing-options {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
-    width: 300px; 
+    
     margin: 20px 0;
 }
 
-.option {
+.option{
+    display: flex;
+    align-items: center;
+}
+
+.option-dot {
+    display: inline-block;
     width: 20px;
     height: 20px;
     border: 2px solid #ccc;
     border-radius: 50%;
-    position: relative;
-    cursor: pointer;
-    margin-right: 10px;
+    margin-right:1em ;
+
 }
 
 
 
 
-.option:hover {
+.option-dot:hover {
     border-color: #007ee5;
 }
 
 
-.option:active {
+.option-dot:active {
     background-color: #007ee5;
 }
 
@@ -216,10 +226,11 @@ position: relative;
 /* ABBONAMENTI */
 
 .subscription-card {
+    padding-left: 0.5em;
 
 
     /* debug */
-    border: 1px solid red;
+    border: 1px solid rgb(12, 11, 11);
     width: 30%;
     min-height: 400px;
 
@@ -230,13 +241,13 @@ position: relative;
     justify-content: center;
     align-items: center;
     margin-top: 5em;
-    
+
 }
 
 .subscriptions {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 
@@ -262,35 +273,69 @@ position: relative;
     text-align: center;
 }
 
-.card-title h3{
+.card-title h3 {
     font-size: medium;
-    
-    
+
+
 }
+
 .card-body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
+
 .card-body span p {
     font-size: 0.7em;
-    margin: 0 1em ;
+    margin: 0 1em;
 }
 
 .card-body h4 {
     margin: 0 1em;
 }
-.card-body .btn {
-    
-}
+
+.card-body .btn {}
+
 .buy-now {
     color: red;
 }
+
 .hr-1 {
     width: 50%;
     position: relative;
     right: 25%;
-    
+
+}
+
+
+
+/* Enterprise */
+.enterprise-small{
+
+margin-top: 3em;
+}
+
+.enterprise-box {
+    display: flex;
+    flex-direction: column;
+
+}
+.enterprise-box hr {
+    width: 100%;
+}
+
+.enterprise-title{
+    margin: auto auto;
+    padding-top: 0.5em;
+}
+.enterprise-section {
+    display: flex;
+    padding: 1em ;
+
+}
+.enterprise-rigt{
+width: 25%;
+margin: 0 auto;
 }
 
 /* FOOTER */
@@ -306,7 +351,7 @@ footer {
     display: flex;
     min-height: 300px;
     justify-content: space-between;
-   
+
 
     /* Debug */
 
