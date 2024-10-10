@@ -132,6 +132,7 @@ position: relative;
 .hero-title {
     text-align: center;
     font-size: xx-large;
+
     /* debug */
     border: 1px solid black;
     min-height: 100px;
@@ -264,9 +265,33 @@ position: relative;
 .card-title h3{
     font-size: medium;
     
+    
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.card-body span p {
+    font-size: 0.7em;
+    margin: 0 1em ;
 }
 
-
+.card-body h4 {
+    margin: 0 1em;
+}
+.card-body .btn {
+    
+}
+.buy-now {
+    color: red;
+}
+.hr-1 {
+    width: 50%;
+    position: relative;
+    right: 25%;
+    
+}
 
 /* FOOTER */
 
