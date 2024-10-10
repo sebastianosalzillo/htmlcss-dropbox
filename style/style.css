@@ -254,20 +254,7 @@ header {
 
 
 
-/* <!-- BUSNESS-Section --> */
 
-.business-card {
-    width: calc(94%/3);
-    /* debug */
-
-    border: 1px solid red;
-    min-height: 200px;
-}
-
-.business {
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
 
 .card-title {
     text-align: center;
@@ -360,6 +347,30 @@ margin: 0 auto;
     padding: 0 2em ;
    flex: 1;
    
+}
+
+
+/* BUSNESS_SECTION */
+
+/* <!-- BUSNESS-Section --> */
+
+.business-card {
+   padding: 1em 1em ;
+    width: calc(94%/3);
+    /* debug */
+
+    border: 1px solid red;
+    min-height: 200px;
+}
+
+.business {
+   
+    margin-top: 10em;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.business-card img {
+    width: 100%;
 }
 
 /* FOOTER */
